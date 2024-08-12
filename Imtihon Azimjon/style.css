@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav{
+  
+  font-family: "Roboto", sans-serif;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.containeer {
+  max-width: 1450px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.nav nav {
+  background-color: black;
+  margin-bottom: 50px;
+  position: fixed;
+  width: 1450px;
+  margin: auto;
+}
+
+.nav  nav .ar1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(./background.png);
+}
+
+.nav  nav .ar1 .li {
+  display: flex;
+}
+
+.er {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav nav .ar1 .yer p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav nav .ar2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav nav .ar2 ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav nav .ar2 ul button {
+  background: transparent;
+  border: 0px;
+  color: white;
+  transition-duration: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    color: blueviolet;
+  }
+}
+
+.nav nav .ar2 footer {
+  gap: 10px;
+}
+
+.nav nav .ar2 footer .bt {
+  padding: 5px 15px;
+  background: transparent;
+  border: 0;
+}
+
+.Page1 {
+  background-color: #323744;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.Page1 div img {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.Page1 div article {
+  background-color: #131721;
+  margin-bottom: 10px;
+}
+
+.last {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.last p {
+  padding-bottom: 3px;
+
+  transition-duration: 0.3s;
+  &:hover {
+    cursor: pointer;
+    color: #D11F8A;
+  }
+}
+
+.last img {
+  &:hover {
+    cursor: pointer;
+    transform: translateY(9px);
+  }
+}
+
+.Page2 {
+  background-color: #323744;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.Page2 div img {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.Page2 div article {
+  background-color: #131721;
+  margin-bottom: 10px;
+}
+
+
+
+.last p {
+  padding-bottom: 3px;
+
+  transition-duration: 0.3s;
+  &:hover {
+    cursor: pointer;
+    color: #D11F8A;
+  }
+}
+
+.last img {
+  &:hover {
+    cursor: pointer;
+    transform: translateY(9px);
+  }
+}
+
+.logch {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.logch button {
+  padding: 15px 20px;
+  background-color: #222837;
+  border: 0;
+}
+.stert {
+  background-image: url(./Rectangle\ 6.jpg);
+  padding-bottom: 490px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Page3 {
+  background-color: #323744;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.deplomat .f article{
+  display: flex;
+  gap: 10px;
+  background-color: #222837;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 27px;
+}
+.f{
+  display: flex;
+  gap: 20px;
+}
